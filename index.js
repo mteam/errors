@@ -3,8 +3,8 @@ var browser = require('./detect.js');
 var self = {
   frame: document.createElement('iframe'),
   project: null,
-  loaded: false
-  queue: [],
+  loaded: false,
+  queue: []
 };
 
 self.send = function(json) {
