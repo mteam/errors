@@ -1,6 +1,6 @@
 {
-  "name": "error-reporter",
+  "name": "errors",
   "version": "0.0.1",
-  "repo": "mteam/error-reporter",
+  "repo": "mteam/errors",
   "scripts": ["index.js", "detect.js"]
 }
