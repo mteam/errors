@@ -2,5 +2,10 @@
   "name": "errors",
   "version": "0.0.1",
   "repo": "mteam/errors",
-  "scripts": ["index.js", "detect.js"]
+  "dependencies": {
+    "component/bind": "*"
+  },
+  "scripts": [
+    "index.js", "detect.js", "backend.js"
+  ]
 }
