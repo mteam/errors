@@ -16,9 +16,11 @@ module.exports = {
     return this;
   },
 
-  report: function(err) {
+  report: function(err, rethrown) {
+    if (rethrown == null) rethrown = true;
+
     this.send(err.message, err.stack);
-    this.reported = true;
+    this.reported = rethrown;
   },
 
   handle: function(message, url, line, column, error) {
